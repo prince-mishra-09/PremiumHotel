@@ -59,10 +59,11 @@ body {
 nav {
     /* border: 1px solid; */
     width: 100%;
-    height: 6vh;
     padding: 1em;
     font-size: 15px;
     margin: 1em 0;
+   
+
 }
 
 .leftnav {
@@ -80,6 +81,20 @@ nav {
 
 .leftnav ul {
     list-style: none;
+}
+.leftnav .name{
+    position: relative;
+    background: linear-gradient(45deg, #ff007f, #ffcc00);
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.6);
+    margin-right: 10px;
+    overflow: hidden;
 }
 
 .leftnav ul a {
@@ -105,7 +120,7 @@ button {
 
 .search {
     padding: 0 1em;
-    height: 4vh;
+    /* height: 5vh; */
     /* justify-content: center; */
     gap: 10px;
     /* position: sticky; */
@@ -130,7 +145,7 @@ button {
 }
 
 .sHere input {
-    height: 100%;
+    height: 35px;
     width: 100%;
     padding-left: 28px;
     border: none;
@@ -143,6 +158,8 @@ button {
 }
 
 .btns {
+    margin: 10px;
+    height: 35px;
     width: 68%;
 }
 
@@ -644,4 +661,29 @@ a:hover {
 
 
 
-/* master 4 */
+/* Scrollbar for Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of vertical scrollbar */
+    height: 8px; /* Height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light grey background */
+    border-radius: 20px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #6bffff, #556270); /* Gradient color */
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #4efff9, #1f4037); /* Darker gradient on hover */
+}
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(246, 2, 2, 0.114) #f1f1f1;
+}
