@@ -4,17 +4,6 @@
     animation: rooms linear 2s calc(0.2s * var(--i)) infinite;
 }
 
-@keyframes rooms {
-
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-20px);
-    }
-}
 
 .master4 {
     display: flex;
@@ -62,7 +51,8 @@
 
 .master4 .room-card {
     width: fit-content;
-    max-width: 420px;
+    max-width: 480px;
+    /* min-width: 450px; */
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -208,16 +198,6 @@ h1:hover {
         width: 100%;
     }
 
-    @keyframes rooms {
-
-        0%,
-        100% {
-            transform: translateY(0);
-        }
-
-        50% {
-            transform: translateX(-20px);
-        }
-    }
+    
 
 }
