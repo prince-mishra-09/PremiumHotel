@@ -198,3 +198,8 @@ h1:hover {
         width: 100%;
     } 
 }
+@media (min-width: 665px) and (max-width:1200px) {
+    .master4 .room-card {
+        width: 40%;
+    }  
+}
