@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     gap: 2em;
+    /* background-color: #C599B6; */
 }
 
 .master4 hr {
@@ -51,6 +52,7 @@
 
 .master4 .room-card {
     width: 24%;
+    position: relative;
     /* max-width: 480px; */
     /* min-width: 450px; */
     border: 1px solid #ddd;

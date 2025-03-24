@@ -1,0 +1,84 @@
+/* Footer Styles */
+footer {
+    background-color: #fff;
+    color: #222;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Footer Links Section */
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer Columns */
+.footer-column h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin: 8px 0;
+}
+
+.footer-column ul li a {
+    color: #222;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer Bottom Right (Language & Currency) */
+.footer-bottom-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-bottom-right span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Social Icons */
+.footer-bottom-right a {
+    color: #222;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.footer-bottom-right a:hover {
+    color: #666;
+}
