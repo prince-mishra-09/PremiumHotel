@@ -278,7 +278,8 @@ a:hover {
     justify-content: space-between;
     align-items: flex-start;
     padding: 1em;
-    background-color: rgba(128, 0, 128, 0.256);
+    position: relative;
+    /* background-color: rgba(128, 0, 128, 0.256); */
 }
 
 .master2 .col {

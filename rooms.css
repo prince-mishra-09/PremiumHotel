@@ -46,12 +46,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 2em;
+    gap: 15px;
 }
 
 .master4 .room-card {
-    width: fit-content;
-    max-width: 480px;
+    width: 24%;
+    /* max-width: 480px; */
     /* min-width: 450px; */
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -196,8 +196,5 @@ h1:hover {
 @media (max-width: 665px) {
     .master4 .room-card {
         width: 100%;
-    }
-
-    
-
+    } 
 }
